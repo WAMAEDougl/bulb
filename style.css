@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f8f4ec;
+
+
+}
+section{
+    background-color: #fff;
+    border-radius: 15px;
+    border: .8px solid gray;
+    box-shadow: rgba(100,100,11,0_2)0px 7px 29px 0px;
+    border-color: black;
+
+    
+}
+.actions{
+    display: flex;
+    justify-content: center;
+    padding: 0.7rem;
+    gap: 0.4;
+
+}
+.actions button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+}.actions button:hover{
+    opacity: .7;
+    transform: scale(1.01);
+}
+.actions button:first-child{
+    background-color: red;
+}
+.actions button:last-child{
+    background-color: green;
+}
